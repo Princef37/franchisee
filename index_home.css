@@ -23,7 +23,8 @@ body{
 .logo{
     /* width: 100px; */
     background-color: antiquewhite;
-    width: 250px;
+    /* width: 250px; */
+    width: 15.6rem;
 }
 #logo{
     margin-left: 10px;
