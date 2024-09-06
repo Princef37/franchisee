@@ -100,7 +100,7 @@ body{
 
 .toggle{
     width: 243px;
-    height: 540px;
+    height: 100vh;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
