@@ -1,0 +1,364 @@
+<html>
+
+<head>
+    <title>
+        My Franchisee List
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 95%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #e3f2fd;
+            padding: 10px 20px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .breadcrumb {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .breadcrumb a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .search-container {
+            margin: 20px 0;
+        }
+
+        .search-container input {
+            padding: 8px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .table-container {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th,
+        table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #f8e8a0;
+        }
+
+        table td img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <br><br>
+        <div class="header">
+            <h1>
+                My Franchisee List
+            </h1>
+            <div class="breadcrumb">
+                <a href="#">
+                    <i class="fas fa-home">
+                    </i>
+                    Dashboard
+                </a>
+                &gt;
+                <a href="#">
+                    Franchisee
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <h2>
+            My Franchisee List
+        </h2>
+        <div class="search-container">
+            <label for="search">
+                Search:
+            </label>
+            <input id="search" name="search" type="text" />
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Image
+                        </th>
+                        <th>
+                            Franchisee Name
+                        </th>
+                        <th>
+                            Contact
+                        </th>
+                        <th>
+                            City
+                        </th>
+                        <th>
+                            State
+                        </th>
+                        <th>
+                            Address
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            <img alt="Profile image of RUMAISHA QURASHI" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-EzXb9iLzWrabv2ww6wpNm5nd.png?st=2024-09-08T06%3A04%3A41Z&amp;se=2024-09-08T08%3A04%3A41Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T21%3A44%3A51Z&amp;ske=2024-09-08T21%3A44%3A51Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=boQguvAWfOKqHsSJjNmRqArS4lUJ%2BppkexzmCC3uIqY%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            RUMAISHA QURASHI
+                        </td>
+                        <td>
+                            7879348477
+                            <br />
+                            QURASHI787@GMAIL.COM
+                        </td>
+                        <td>
+                            Muradnagar
+                        </td>
+                        <td>
+                            Uttar Pradesh
+                        </td>
+                        <td>
+                            MAINB
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            <img alt="Profile image of SARAL PATH LAB" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-rWxmYd3eqlL8ALmtYbvVlxEA.png?st=2024-09-08T06%3A04%3A43Z&amp;se=2024-09-08T08%3A04%3A43Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T22%3A19%3A19Z&amp;ske=2024-09-08T22%3A19%3A19Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=UCLB3Vvcwz4FkvjYpZ5bZqa%2BF5lYU7Odmj%2BBRw6a9N0%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            SARAL PATH LAB
+                            <br />
+                            <span style="color: red;">
+                                Booking Locked
+                            </span>
+                        </td>
+                        <td>
+                            895685656
+                            <br />
+                            SARALUP12@GMAIL.COM
+                        </td>
+                        <td>
+                            Muzaffarnagar
+                        </td>
+                        <td>
+                            Uttar Pradesh
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            <img alt="Profile image of Anuradha devi" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-n0P0tVGyTcs5TnkX1FbZEYU2.png?st=2024-09-08T06%3A04%3A39Z&amp;se=2024-09-08T08%3A04%3A39Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T21%3A39%3A03Z&amp;ske=2024-09-08T21%3A39%3A03Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=uZvr2J4syturzvM1BWoLVnDCJ3HZtTvJ0ycEWy3YgwQ%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            Anuradha devi
+                            <br />
+                            <span style="color: red;">
+                                Booking Locked
+                            </span>
+                        </td>
+                        <td>
+                            9865311988
+                            <br />
+                            anuradhadevi76@gmail.com
+                        </td>
+                        <td>
+                            Moradabad
+                        </td>
+                        <td>
+                            Uttar Pradesh
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            4
+                        </td>
+                        <td>
+                            <img alt="Profile image of MANOJ KUMAR" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-qQRoO5dXL5vcake9lDnrI9ae.png?st=2024-09-08T06%3A04%3A39Z&amp;se=2024-09-08T08%3A04%3A39Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T22%3A48%3A27Z&amp;ske=2024-09-08T22%3A48%3A27Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=aeYzmyWNTnsz4aBa9VUisC8X5SDvMvDEg5sb%2BYZ6Afk%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            MANOJ KUMAR
+                            <br />
+                            <span style="color: red;">
+                                Booking Locked
+                            </span>
+                        </td>
+                        <td>
+                            9756724766
+                            <br />
+                            manojkumar54@gmail.com
+                        </td>
+                        <td>
+                            Muzaffarnagar
+                        </td>
+                        <td>
+                            Uttar Pradesh
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            <img alt="Profile image of Random Person 1" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-naZT2djaIVjaeoZKHY6Kz5dn.png?st=2024-09-08T06%3A07%3A28Z&amp;se=2024-09-08T08%3A07%3A28Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T22%3A25%3A00Z&amp;ske=2024-09-08T22%3A25%3A00Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=Fx6BVepGzxYWhmACNO8kwB9zKPXK/z9MDQKKyN7K7ck%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            Random Person 1
+                            <br />
+                            <span style="color: red;">
+                                Booking Locked
+                            </span>
+                        </td>
+                        <td>
+                            1234567890
+                            <br />
+                            random1@example.com
+                        </td>
+                        <td>
+                            City1
+                        </td>
+                        <td>
+                            State1
+                        </td>
+                        <td>
+                            Address1
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            6
+                        </td>
+                        <td>
+                            <img alt="Profile image of Random Person 2" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-adSD5qhjRu4I5U1ZWXOMPavY.png?st=2024-09-08T06%3A07%3A25Z&amp;se=2024-09-08T08%3A07%3A25Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T22%3A27%3A46Z&amp;ske=2024-09-08T22%3A27%3A46Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=HRaeVcQKNE3I43r8ZadNkyZzDF3XD0aSXmsVIUdiwKQ%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            Random Person 2
+                            <br />
+                            <span style="color: red;">
+                                Booking Locked
+                            </span>
+                        </td>
+                        <td>
+                            0987654321
+                            <br />
+                            random2@example.com
+                        </td>
+                        <td>
+                            City2
+                        </td>
+                        <td>
+                            State2
+                        </td>
+                        <td>
+                            Address2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            7
+                        </td>
+                        <td>
+                            <img alt="Profile image of Random Person 3" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-wuiNla4qzz8ty8ju6NYe1vjd.png?st=2024-09-08T06%3A07%3A25Z&amp;se=2024-09-08T08%3A07%3A25Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T21%3A53%3A26Z&amp;ske=2024-09-08T21%3A53%3A26Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=prA0S3CMmwWccUvIQSNrOsE6lzAa%2B9e111u3iuUbfPI%3D"
+                                width="50" />
+                        </td>
+                        <td>
+                            Random Person 3
+                            <br />
+                            <span style="color: red;">
+                                Booking Locked
+                            </span>
+                        </td>
+                        <td>
+                            1122334455
+                            <br />
+                            random3@example.com
+                        </td>
+                        <td>
+                            City3
+                        </td>
+                        <td>
+                            State3
+                        </td>
+                        <td>
+                            Address3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            8
+                        </td>
+                        <td>
+                            <img alt="Profile image of Random Person 4" height="50"
+                                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-O8oVYapHvGpWjGoaVn6YGTJL.png?st=2024-09-08T06%3A07%3A27Z&amp;se=2024-09-08T08%3A07%3A27Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-07T22%3A02%3A38Z&amp;ske=2024-09-08T22%3A02%3A38Z&amp;sks=b&amp;skv=
