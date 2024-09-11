@@ -114,7 +114,7 @@ window.onload = function () {
     else {
         var xhr = new XMLHttpRequest();
 
-        xhr.open('GET', "/lab/dashboard/Dashboard.html", true);
+        xhr.open('GET', "Dashboard.html", true);
 
         xhr.onload = function () {
             if (xhr.status >= 200 && xhr.status < 300) {
